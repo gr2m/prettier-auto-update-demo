@@ -1,0 +1,24 @@
+{
+  "name": "prettier-auto-update-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo of prettier auto-updates using Greenkeeper and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr2m/prettier-auto-update-demo.git"
+  },
+  "keywords": [],
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr2m/prettier-auto-update-demo/issues"
+  },
+  "homepage": "https://github.com/gr2m/prettier-auto-update-demo#readme",
+  "dependencies": {
+    "prettier": "^1.7.0"
+  }
+}
