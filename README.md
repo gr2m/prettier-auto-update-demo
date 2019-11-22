@@ -1,5 +1,7 @@
 # Automate updates of prettier, standard and other JavaScript linting tools using GitHub Actions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gr2m/prettier-auto-update-demo.svg)](https://greenkeeper.io/)
+
 Automating npm dependencies using a service such as [Greenkeeper](https://greenkeeper.io/) is great! I would not be able maintain as many projects without that kind of automation.
 
 However, linters such as [Prettier](https://prettier.io/) or [Standard](https://standardjs.com/) are different. Every fix or new feature version introduces new formatting rules and might break your tests. 
