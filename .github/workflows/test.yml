@@ -1,22 +1,22 @@
 name: Test
-on:
+"on":
   push:
     branches:
       - master
-      - "greenkeeper/**"
+      - greenkeeper/**
   pull_request:
-    types: [opened, synchronize]
-
+    types:
+      - opened
+      - synchronize
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: lts/*
       - name: Install
         run: npm ci
       - name: Test
